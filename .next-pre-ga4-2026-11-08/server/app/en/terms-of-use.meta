@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(en)/layout,_N_T_/(en)/en/layout,_N_T_/(en)/en/terms-of-use/layout,_N_T_/(en)/en/terms-of-use/page,_N_T_/en/terms-of-use"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/923c072d4001a2ec51675a11ae5c35eac117f1da428c27500ad89d9a96bccfb8/$/en/terms-of-use",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(en)/en/terms-of-use/page"
+    },
+    "isFallback": false
+  }
+}

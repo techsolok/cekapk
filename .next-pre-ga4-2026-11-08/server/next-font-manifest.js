@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/root/cekapk-phase2a-staging-2026-11-08/src/app/(id)/layout":["static/media/636a5ac981f94f8b-s.p.woff2"],"/root/cekapk-phase2a-staging-2026-11-08/src/app/(en)/layout":["static/media/636a5ac981f94f8b-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';

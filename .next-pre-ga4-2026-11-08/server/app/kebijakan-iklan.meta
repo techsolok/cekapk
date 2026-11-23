@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(id)/layout,_N_T_/(id)/kebijakan-iklan/layout,_N_T_/(id)/kebijakan-iklan/page,_N_T_/kebijakan-iklan"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/334cb8d1e5b8fac701f9a429b89c6f93a56e05c4d7b28f0929ca82b091daa0f6/$/kebijakan-iklan",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(id)/kebijakan-iklan/page"
+    },
+    "isFallback": false
+  }
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CekAPK - Panduan Keamanan & Aplikasi</title>
+    <link>https://cekapk.com/panduan</link>
+    <atom:link href="https://cekapk.com/panduan/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Panduan keamanan APK dan aplikasi dalam Bahasa Indonesia dari CekAPK.</description>
+    <language>id-ID</language>
+    <item>
+      <title>Apa Itu APK Hijau? Bukan Aplikasi Resmi - Ini Arti dan Risikonya</title>
+      <link>https://cekapk.com/panduan/apa-itu-apk-hijau</link>
+      <guid isPermaLink="true">https://cekapk.com/panduan/apa-itu-apk-hijau</guid>
+      <pubDate>Sat, 17 Oct 2026 17:00:00 GMT</pubDate>
+      <description>APK hijau adalah istilah viral, bukan nama aplikasi resmi. Pelajari arti sebenarnya, kenapa banyak dicari, dan risiko mengunduh dari tautan tidak jelas.</description>
+    </item>
+    <item>
+      <title>Apa Itu APK Ijo? Arti Istilah Viral Ini dan Kenapa Harus Hati-Hati</title>
+      <link>https://cekapk.com/panduan/apa-itu-apk-ijo</link>
+      <guid isPermaLink="true">https://cekapk.com/panduan/apa-itu-apk-ijo</guid>
+      <pubDate>Sat, 17 Oct 2026 17:00:00 GMT</pubDate>
+      <description>APK ijo sama dengan APK hijau: istilah viral yang bukan nama aplikasi resmi. Ini arti, asal-usul, dan risiko tautan unduh yang memakainya.</description>
+    </item>
+    <item>
+      <title>Cara Instal Aplikasi Android dengan Aman</title>
+      <link>https://cekapk.com/panduan/cara-instal-apk-aman</link>
+      <guid isPermaLink="true">https://cekapk.com/panduan/cara-instal-apk-aman</guid>
+      <pubDate>Sat, 17 Oct 2026 17:00:00 GMT</pubDate>
+      <description>Langkah memasang aplikasi Android dengan aman: dari Play Store, cek developer dan izin, aktifkan Play Protect, dan aturan berkas APK dari luar.</description>
+    </item>
+    <item>
+      <title>Cara Cek Izin Aplikasi di Android dan Artinya dalam Bahasa Awam</title>
+      <link>https://cekapk.com/panduan/cara-cek-izin-aplikasi</link>
+      <guid isPermaLink="true">https://cekapk.com/panduan/cara-cek-izin-aplikasi</guid>
+      <pubDate>Sat, 17 Oct 2026 17:00:00 GMT</pubDate>
+      <description>Panduan memeriksa izin aplikasi Android: cara membuka daftar izin, arti izin kamera, mikrofon, kontak, lokasi, penyimpanan, dan izin mana yang berbahaya.</description>
+    </item>
+    <item>
+      <title>Cara Mengenali APK Palsu dan Aplikasi Penipuan di Android</title>
+      <link>https://cekapk.com/panduan/cara-mengenali-apk-palsu</link>
+      <guid isPermaLink="true">https://cekapk.com/panduan/cara-mengenali-apk-palsu</guid>
+      <pubDate>Sat, 17 Oct 2026 17:00:00 GMT</pubDate>
+      <description>Tanda-tanda aplikasi dan berkas APK palsu: peniruan aplikasi bank dan WhatsApp, file undangan penipuan, janji premium gratis, dan langkah bila terlanjur memasang.</description>
+    </item>
+    <item>
+      <title>APKPure: Apa Itu, Apakah Aman, dan Legal di Indonesia?</title>
+      <link>https://cekapk.com/panduan/apakah-apkpure-aman</link>
+      <guid isPermaLink="true">https://cekapk.com/panduan/apakah-apkpure-aman</guid>
+      <pubDate>Tue, 03 Nov 2026 17:00:00 GMT</pubDate>
+      <description>Apa itu APKPure, apakah aman, dan apakah legal di Indonesia? Penjelasan jujur tentang toko APK pihak ketiga, verifikasi tanda tangan, dan risikonya.</description>
+    </item>
+  </channel>
+</rss>

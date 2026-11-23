@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(id)/layout,_N_T_/(id)/aplikasi/layout,_N_T_/(id)/aplikasi/[slug]/layout,_N_T_/(id)/aplikasi/[slug]/page,_N_T_/aplikasi/telegram"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/a1fcad716301a79929102f3ce68bcd72833953b2ff727ce23877916015781c80/$/aplikasi/telegram",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(id)/aplikasi/[slug]/page"
+    },
+    "isFallback": false
+  }
+}

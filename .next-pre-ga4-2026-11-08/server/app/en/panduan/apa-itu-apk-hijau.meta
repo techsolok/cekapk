@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(en)/layout,_N_T_/(en)/en/layout,_N_T_/(en)/en/panduan/layout,_N_T_/(en)/en/panduan/[slug]/layout,_N_T_/(en)/en/panduan/[slug]/page,_N_T_/en/panduan/apa-itu-apk-hijau"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/4f5611a034cbedc1e1cf71e6484b2735fd9cd7057656b253a8ce4b7912f9a9ec/$/en/panduan/apa-itu-apk-hijau",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(en)/en/panduan/[slug]/page"
+    },
+    "isFallback": false
+  }
+}

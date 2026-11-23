@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Faplikasi\u002F[slug]","\u002Fbandingkan\u002F[slug]","\u002Fen\u002Faplikasi\u002F[slug]","\u002Fen\u002Fpanduan\u002F[slug]","\u002Fkategori\u002F[slug]","\u002Fpanduan\u002F[slug]","\u002Fsitemap\u002F[__metadata_id__]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

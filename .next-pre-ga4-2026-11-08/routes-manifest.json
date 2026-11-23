@@ -1,0 +1,401 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/:path*",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ],
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    }
+  ],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/api/library/download/[id]",
+      "regex": "^/api/library/download/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/library/download/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/aplikasi/[slug]",
+      "regex": "^/aplikasi/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/aplikasi/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/aplikasi/[slug]/opengraph-image-lexgr5",
+      "regex": "^/aplikasi/([^/]+?)/opengraph\\-image\\-lexgr5(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/aplikasi/(?<nxtPslug>[^/]+?)/opengraph\\-image\\-lexgr5(?:/)?$"
+    },
+    {
+      "page": "/bandingkan/[slug]",
+      "regex": "^/bandingkan/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/bandingkan/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/en/aplikasi/[slug]",
+      "regex": "^/en/aplikasi/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/en/aplikasi/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/en/aplikasi/[slug]/opengraph-image-1xvv6w",
+      "regex": "^/en/aplikasi/([^/]+?)/opengraph\\-image\\-1xvv6w(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/en/aplikasi/(?<nxtPslug>[^/]+?)/opengraph\\-image\\-1xvv6w(?:/)?$"
+    },
+    {
+      "page": "/en/panduan/[slug]",
+      "regex": "^/en/panduan/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/en/panduan/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/en/panduan/[slug]/opengraph-image-r46y9e",
+      "regex": "^/en/panduan/([^/]+?)/opengraph\\-image\\-r46y9e(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/en/panduan/(?<nxtPslug>[^/]+?)/opengraph\\-image\\-r46y9e(?:/)?$"
+    },
+    {
+      "page": "/kategori/[slug]",
+      "regex": "^/kategori/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/kategori/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/kategori/[slug]/opengraph-image-170fdk",
+      "regex": "^/kategori/([^/]+?)/opengraph\\-image\\-170fdk(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/kategori/(?<nxtPslug>[^/]+?)/opengraph\\-image\\-170fdk(?:/)?$"
+    },
+    {
+      "page": "/panduan/[slug]",
+      "regex": "^/panduan/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/panduan/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/panduan/[slug]/opengraph-image-nhtt1m",
+      "regex": "^/panduan/([^/]+?)/opengraph\\-image\\-nhtt1m(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/panduan/(?<nxtPslug>[^/]+?)/opengraph\\-image\\-nhtt1m(?:/)?$"
+    },
+    {
+      "page": "/perpustakaan/[id]",
+      "regex": "^/perpustakaan/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/perpustakaan/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/sitemap/[__metadata_id__]",
+      "regex": "^/sitemap/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtP__metadata_id__": "nxtP__metadata_id__"
+      },
+      "namedRegex": "^/sitemap/(?<nxtP__metadata_id__>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/admin",
+      "regex": "^/admin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin(?:/)?$"
+    },
+    {
+      "page": "/admin/login",
+      "regex": "^/admin/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/login(?:/)?$"
+    },
+    {
+      "page": "/aplikasi",
+      "regex": "^/aplikasi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/aplikasi(?:/)?$"
+    },
+    {
+      "page": "/bandingkan",
+      "regex": "^/bandingkan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/bandingkan(?:/)?$"
+    },
+    {
+      "page": "/disclaimer",
+      "regex": "^/disclaimer(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/disclaimer(?:/)?$"
+    },
+    {
+      "page": "/dmca",
+      "regex": "^/dmca(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dmca(?:/)?$"
+    },
+    {
+      "page": "/en",
+      "regex": "^/en(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/en(?:/)?$"
+    },
+    {
+      "page": "/en/about",
+      "regex": "^/en/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/en/about(?:/)?$"
+    },
+    {
+      "page": "/en/advertising-policy",
+      "regex": "^/en/advertising\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/en/advertising\\-policy(?:/)?$"
+    },
+    {
+      "page": "/en/contact",
+      "regex": "^/en/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/en/contact(?:/)?$"
+    },
+    {
+      "page": "/en/dmca",
+      "regex": "^/en/dmca(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/en/dmca(?:/)?$"
+    },
+    {
+      "page": "/en/privacy-policy",
+      "regex": "^/en/privacy\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/en/privacy\\-policy(?:/)?$"
+    },
+    {
+      "page": "/en/terms-of-use",
+      "regex": "^/en/terms\\-of\\-use(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/en/terms\\-of\\-use(?:/)?$"
+    },
+    {
+      "page": "/en/tools",
+      "regex": "^/en/tools(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/en/tools(?:/)?$"
+    },
+    {
+      "page": "/en/tools/instagram-downloader",
+      "regex": "^/en/tools/instagram\\-downloader(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/en/tools/instagram\\-downloader(?:/)?$"
+    },
+    {
+      "page": "/en/tools/tiktok-downloader",
+      "regex": "^/en/tools/tiktok\\-downloader(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/en/tools/tiktok\\-downloader(?:/)?$"
+    },
+    {
+      "page": "/icon.svg",
+      "regex": "^/icon\\.svg(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/icon\\.svg(?:/)?$"
+    },
+    {
+      "page": "/kategori",
+      "regex": "^/kategori(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kategori(?:/)?$"
+    },
+    {
+      "page": "/keamanan",
+      "regex": "^/keamanan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/keamanan(?:/)?$"
+    },
+    {
+      "page": "/kebijakan-iklan",
+      "regex": "^/kebijakan\\-iklan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kebijakan\\-iklan(?:/)?$"
+    },
+    {
+      "page": "/ketentuan",
+      "regex": "^/ketentuan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ketentuan(?:/)?$"
+    },
+    {
+      "page": "/kontak",
+      "regex": "^/kontak(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kontak(?:/)?$"
+    },
+    {
+      "page": "/manifest.webmanifest",
+      "regex": "^/manifest\\.webmanifest(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/manifest\\.webmanifest(?:/)?$"
+    },
+    {
+      "page": "/metodologi-verifikasi",
+      "regex": "^/metodologi\\-verifikasi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/metodologi\\-verifikasi(?:/)?$"
+    },
+    {
+      "page": "/offline",
+      "regex": "^/offline(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/offline(?:/)?$"
+    },
+    {
+      "page": "/panduan",
+      "regex": "^/panduan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/panduan(?:/)?$"
+    },
+    {
+      "page": "/panduan/feed.xml",
+      "regex": "^/panduan/feed\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/panduan/feed\\.xml(?:/)?$"
+    },
+    {
+      "page": "/perpustakaan",
+      "regex": "^/perpustakaan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/perpustakaan(?:/)?$"
+    },
+    {
+      "page": "/privasi",
+      "regex": "^/privasi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privasi(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/tentang",
+      "regex": "^/tentang(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tentang(?:/)?$"
+    },
+    {
+      "page": "/tools",
+      "regex": "^/tools(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools(?:/)?$"
+    },
+    {
+      "page": "/tools/pemeriksa-izin",
+      "regex": "^/tools/pemeriksa\\-izin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/pemeriksa\\-izin(?:/)?$"
+    },
+    {
+      "page": "/tools/pengunduh-instagram",
+      "regex": "^/tools/pengunduh\\-instagram(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/pengunduh\\-instagram(?:/)?$"
+    },
+    {
+      "page": "/tools/pengunduh-tiktok",
+      "regex": "^/tools/pengunduh\\-tiktok(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/pengunduh\\-tiktok(?:/)?$"
+    },
+    {
+      "page": "/transparansi",
+      "regex": "^/transparansi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/transparansi(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

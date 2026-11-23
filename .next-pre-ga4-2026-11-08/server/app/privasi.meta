@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(id)/layout,_N_T_/(id)/privasi/layout,_N_T_/(id)/privasi/page,_N_T_/privasi"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/20cac9ccb9795f0f606dde62250198094c2ebf6284350d547a8cfdbcb5731944/$/privasi",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(id)/privasi/page"
+    },
+    "isFallback": false
+  }
+}

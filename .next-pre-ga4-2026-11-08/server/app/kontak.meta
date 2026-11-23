@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(id)/layout,_N_T_/(id)/kontak/layout,_N_T_/(id)/kontak/page,_N_T_/kontak"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/88bad36d4a2e439157f7e5decf22024e141d4742f8d15949e81a58ad6fa89037/$/kontak",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(id)/kontak/page"
+    },
+    "isFallback": false
+  }
+}

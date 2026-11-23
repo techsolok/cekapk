@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(id)/layout,_N_T_/(id)/ketentuan/layout,_N_T_/(id)/ketentuan/page,_N_T_/ketentuan"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/cb0d9c82ca9c06a2c610f3e7cd65908887efe0beb28d82b8ac12199e0d498657/$/ketentuan",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(id)/ketentuan/page"
+    },
+    "isFallback": false
+  }
+}

@@ -1,0 +1,23 @@
+# CekAPK
+
+CekAPK is an Indonesian-language website for honest Android app information, free online tools, and APK safety checking before installing. CekAPK does not provide pirated, modded, gambling or adult apps; download buttons lead to Google Play or the official developer.
+
+## How CekAPK verifies app safety
+
+- Official source first: Google Play or the developer's own site
+- Digital signature matched against the original developer
+- Multi-engine security scanning; one malicious hit = not published
+- App permissions explained in plain Indonesian
+- Every app page displays its verification (checked-on) date
+- Ratings are never fabricated
+
+## Key pages
+
+- Homepage: https://cekapk.com/
+- App catalogue (50 apps): https://cekapk.com/aplikasi
+- APK security hub: https://cekapk.com/keamanan
+- Safety & how-to guides: https://cekapk.com/panduan
+- Free tools: https://cekapk.com/tools
+- Transparency report & methodology: https://cekapk.com/transparansi
+- About & editorial policy: https://cekapk.com/tentang
+- English edition: https://cekapk.com/en

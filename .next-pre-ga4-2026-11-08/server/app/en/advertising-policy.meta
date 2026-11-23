@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(en)/layout,_N_T_/(en)/en/layout,_N_T_/(en)/en/advertising-policy/layout,_N_T_/(en)/en/advertising-policy/page,_N_T_/en/advertising-policy"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/042c74bde714cb6a461822453a56b9e1ae4c4fad901d37f99b5b7c791cb65656/$/en/advertising-policy",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(en)/en/advertising-policy/page"
+    },
+    "isFallback": false
+  }
+}

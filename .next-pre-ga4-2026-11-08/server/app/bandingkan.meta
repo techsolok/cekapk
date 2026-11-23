@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(id)/layout,_N_T_/(id)/bandingkan/layout,_N_T_/(id)/bandingkan/page,_N_T_/bandingkan"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/ed3e8fe3e8269daf7ed81eec8218b56a96ca6f636c26b30c9f4db8953420339e/$/bandingkan",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(id)/bandingkan/page"
+    },
+    "isFallback": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(id)/layout,_N_T_/(id)/disclaimer/layout,_N_T_/(id)/disclaimer/page,_N_T_/disclaimer"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/ffac8215de2e430aab0bbc92813238a79f9bb32024b4bacc3d4c7615a10de0bf/$/disclaimer",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(id)/disclaimer/page"
+    },
+    "isFallback": false
+  }
+}
